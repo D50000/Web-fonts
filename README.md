@@ -23,4 +23,5 @@ Use ```@font-face``` to configure the Web fonts by adding in css file.
 
 ### Reference
 [https://css-tricks.com/snippets/css/using-font-face/](https://css-tricks.com/snippets/css/using-font-face/)  
-[https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/182572/](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/182572/)
+[https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/182572/](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/182572/)  
+[https://blog.gtwang.org/web-development/css-font-face/](https://blog.gtwang.org/web-development/css-font-face/)

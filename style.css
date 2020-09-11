@@ -1,1 +1,21 @@
 /* Use @font-face to configure the Web fonts by adding in css file. */
+body {
+    background-color: #e0e0e0ad;
+}
+
+@font-face {
+    font-family: 'Style_Grandstander';
+    src: url('./fonts/Grandstander-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fontsA {
+    font-family: Style_Grandstander;
+}
+
+.card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: coral;
+}
