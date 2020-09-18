@@ -1,8 +1,31 @@
 /* Use @font-face to configure the Web fonts by adding in css file. */
 body {
     background-color: #e0e0e0ad;
+    width: 80%;
+    margin: 0 auto;
 }
 
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container {
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: coral;
+}
+
+
+/* Web Fonts */
 @font-face {
     font-family: 'Style_Grandstander';
     src: url('./fonts/Grandstander-ExtraBoldItalic.ttf') format('truetype');
@@ -10,12 +33,50 @@ body {
     font-style: normal;
 }
 
-.fontsA {
+.Grandstander {
     font-family: Style_Grandstander;
 }
 
-.card {
-    border-style: solid;
-    border-width: 2px;
-    border-color: coral;
+@font-face {
+    font-family: 'Ranchers-Regular';
+    src: url('./fonts/Ranchers-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Ranchers {
+    font-family: Ranchers-Regular;
+}
+
+@font-face {
+    font-family: 'RobotoSlab-VariableFont_wght';
+    src: url('./fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.RobotoSlab {
+    font-family: RobotoSlab-VariableFont_wght;
+}
+
+@font-face {
+    font-family: 'ArchitectsDaughter-Regular';
+    src: url('./fonts/ArchitectsDaughter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ArchitectsDaughter {
+    font-family: ArchitectsDaughter-Regular;
+}
+
+@font-face {
+    font-family: 'DancingScript-VariableFont_wght';
+    src: url('./fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.DancingScript {
+    font-family: DancingScript-VariableFont_wght;
 }
